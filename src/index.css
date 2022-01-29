@@ -1,0 +1,417 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #A82C48;
+  --secondary-color: #43121d;
+  --third-color: #f98169;
+  --text-color: #fff;
+  --text-gray: #0555;
+  --primary-font: 'roboto',sans-sarif;
+  --secondary-font: 'Quicksand',sans-sarif;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {          
+  width: 10px;              
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--primary-color);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--secondary-color);
+}
+.body{
+  font-family: var(--primary-font);
+  font-size: 100%;
+  font-weight: 900;
+}
+h1{
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 48px;
+}
+p{
+  font-size: 18px;
+  /* color: var(--text-gray); */
+  color: #9b9494;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1px;
+
+}
+
+.main-btn{
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 22px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 /19%);
+  border: 2px solid var(--primary-color);
+  /* border: none; */
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  word-spacing: 0.5px;
+}
+.white-btn{
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 25px;
+  background-color: var(--text-color);
+  /* color: var(--primary-color); */
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 /25%);
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border: 2px solid var(--text-color);
+}
+.white-btn:hover{
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+.navbar-wrapper{
+  background-color: #fff;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 /19%);
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-wrapper .nav-item{
+  padding: 0px 15px ;
+}
+.navbar-wrapper .nav-item :hover{
+  color: var(--secondary-color);
+}
+.main-btn:hover{
+  background-color: transparent;
+  color: var(--primary-color);
+  outline: none;
+}
+
+.navbar-wrapper .nav-link{
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+.navbar-wrapper .main-btn{
+  box-shadow: none;
+  padding: 7px 35px;
+}
+.call-btn{
+  border: 2px solid var(--primary-color);
+  
+}
+.top-banner{
+  width: 100%;
+  background: url(./images/bg/bg-1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 250px 0px 200px;
+}
+/* .banner_subtittle{
+  font-weight: 600;
+} */
+
+/* ....Banner number section ...  */
+.banner-number{
+  background: var(--primary-color);
+  padding: 40px 0px 25px;
+  
+}
+.number-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number-container .number{
+  color:var(--text-color);
+  font-family: var(--primary-font);
+  /* font-size: 25px; */
+  
+}
+.number-container .number-des{
+  font-family: var(--secondary-fontt);
+  color:var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+/* ... About section....  */
+.about-banner{
+  padding: 140px 0px 80px;
+}
+.about-banner .food-img-sec img{
+  border-radius: 15px;
+}
+.about-banner .food_des_section{
+  padding-left: 40px;
+}
+.about-banner .food-tittle{
+  margin-top: 50px;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  
+}
+
+/* about banner 2 section ...  */
+.about-banner2{
+  padding: 20px 0px 80px;
+}
+.about-banner2 .food_des_section2{
+  padding-right: 30px;
+  /* line-height: 25px; */
+}
+.about-banner2 .food-tittle2{
+  margin-top: 120px;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  
+}
+.about-banner2 .food-des2 i {
+  color: var(--primary-color);
+}
+
+.about-banner3{
+  width: 100%;
+  padding: 20px 0px 100px;
+  background:url("./images/bg/bg-2.jpg")  no-repeat center;
+  background-size: cover;
+}
+.about-banner3 .food-tittle3{
+  margin-top: 50px;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+
+
+/* Explore containe css...  */
+.Explore-banner{
+  padding: 95px 0 40px;
+}
+.Explore-banner .explore-des{
+  /* width: 75%; */
+  padding: 0px 150px;
+}
+.Explore-banner .explore-container{
+  margin-bottom: 60px;
+}
+.Explore-banner .explore-tittle{
+  margin-top: 50px;
+  font-family: var(--primary-font);
+  color: var(--secondary-colorr);
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+
+}
+.Explore-banner .card-Img{
+  border-radius: 22px;
+}
+.Explore-banner .card-title{
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+.Explore-banner .card-text{
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.Explore-banner .price-band{
+  font-size: 28px;
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.Explore-banner .price-band span{
+  color: #9b9494;
+  text-decoration: line-through;
+}
+.Explore-banner .under-line{
+  width: 100%;
+  height: 2px;
+  background-color:#eeeeee ;
+  margin: 20px 0px;
+}
+
+
+
+/* .... Reviews section ....  */
+#Reviews{
+  padding: 70px 0px 30px;
+}
+.review-wrapper{
+  background-color: var(--primary-color);
+  padding: 100px 0px 140px;
+}
+.review-wrapper h2{
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+
+}
+.review-wrapper .carousel-item{
+  background-color: var(--text-color);
+  padding: 50px 40px;
+  text-align: center;
+}
+.review-wrapper .review-caption img{
+  width: 100px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.review-wrapper .review-caption p{
+  padding: 10px 100px;
+  text-align: center;
+}
+.review-wrapper .review-caption h5{
+  font-size: 15px;
+  font-family: var(--primary-font);
+  font-weight: 500px;
+  line-height: 28px;
+  color: var(--primary-color)
+}
+.review-wrapper .carousel-indicators {
+  bottom: -55px;
+  display: flex;
+  padding-left: 55px;
+}
+.review-wrapper .carousel-indicators button{
+  width: 15px;
+  height: 15px;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  margin-right: 15px;
+  opacity:0.2;
+}
+.review-wrapper .carousel-indicators button.active{
+  opacity: 1;
+}
+
+
+
+/* .... Faq section...  */
+
+.Faq-wrapper{
+  padding: 140px 0px 90px;
+}
+
+.Faq-wrapper .faq-tittle{
+  margin-bottom: 70px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  word-spacing: 1.5px;
+  color: var(--secondary-color);
+}
+.Question-container h5{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+.Question-container h5 span{
+  font-size: 16px;
+}
+#parralax-screen{
+  padding: 50px 0px 60px;
+}
+.parrallax-effect{
+  background: url(/src/images/bg/bg-3.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 75px 0px 75px;
+}
+.parrallax-effect h3{
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+
+/* Footer Wrapper ....  */
+.footer-wraper{
+  padding: 75px 0px 0;
+}
+.footer-wraper .tittle{
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  padding: 15px 0px 10px ;
+  line-height: 45px;
+}
+
+.footer-wraper .des{
+  margin-bottom: 40px;
+}
+.Footer-des-section{
+  padding: 0px 0px 140px;
+}
+.footer-wraper .form-container input{
+  height:45px;
+  width: 500px;
+  font-weight: 500;
+  padding-inline-start: 15px;
+  border: 2px solid #9b9494;
+  border-radius: none;
+   
+}
+.footer-wraper .form-container input[type=text]:focus {
+  outline:none;
+  border: 2px solid var(--primary-color);
+  box-shadow: none;
+}
+
+.Footer-section{
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+.Footer-name-link {
+  margin-bottom: 15px;
+}
+.Footer-name-link a{
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0px 25px;
+}
+.Footer-section p{
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-color)
+}
+
+.Footer-icon-link a{
+  color: var(--text-color);
+  padding: 0px 16px;
+  font-size: 20px;
+}
