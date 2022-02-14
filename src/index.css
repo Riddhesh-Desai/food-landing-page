@@ -415,3 +415,44 @@ p{
   padding: 0px 16px;
   font-size: 20px;
 }
+
+
+/* responsive design......  */
+@media screen and (max-width: 992px){
+  .about-banner3 .food-tittle3{
+    font-size: 36px;
+  }
+  .Explore-banner .explore-des{
+    padding: 0;
+    text-align:justify
+  }
+
+}
+@media screen and (max-width: 768px){
+  .about-banner3 .food-tittle3{
+    font-size: 27px;
+    line-height: 40px;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .about-banner .food_des_section {
+    padding-left: 0.75rem;
+  }
+  .about-banner .food-tittle{
+    font-size: 36px;
+  }
+  .review-wrapper .review-caption p{
+    padding: 0;
+  }
+  .footer-wraper .form-container input{
+    width: 300px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+  }
+  .img-fluid {
+    max-width: 70%;
+  }
+
+}

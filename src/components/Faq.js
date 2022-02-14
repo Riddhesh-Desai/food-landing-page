@@ -8,7 +8,7 @@ export default function Faq() {
                   Frequently Asked Questions
               </h2>
               <div className="row">
-                  <div className="col-md-6 col-12">
+                  <div className="col-lg-6 col-12">
                   <div className="Question-container  py-4">
                         <h5> Is foddies bread really baked fresh each day<span><i class="fas fa-question"></i></span></h5>
                         <p className="question-ans">
@@ -16,7 +16,7 @@ export default function Faq() {
                         </p>
                   </div>
                   </div>
-                  <div className="col-md-6 col-12">
+                  <div className="col-lg-6 col-12">
                   <div className="Question-container  py-4">
                         <h5> Is foddies bread really baked fresh each day<span><i class="fas fa-question"></i></span></h5>
                         <p className="question-ans">
@@ -26,7 +26,7 @@ export default function Faq() {
                   </div>
               </div>
               <div className="row">
-                  <div className="col-md-6 col-12">
+                  <div className="col-lg-6 col-12">
                   <div className="Question-container py-4">
                         <h5>Can i order your product online<span><i class="fas fa-question"></i></span></h5>
                         <p className="question-ans">
@@ -34,7 +34,7 @@ export default function Faq() {
                         </p>
                   </div>
                   </div>
-                  <div className="col-md-6 col-12">
+                  <div className="col-lg-6 col-12">
                   <div className="Question-container  py-4">
                         <h5> Is foddies bread really baked fresh each day<span><i class="fas fa-question"></i></span></h5>
                         <p className="question-ans">

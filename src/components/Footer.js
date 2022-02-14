@@ -8,7 +8,7 @@ export default function Footer() {
                   hurry up! subscribe our newsletter And get 25% off
               </h2>
               <p className="des">limited time offer for this month.no credit card required</p>
-              <div className="form-container d-flex align-content-center justify-content-center">
+              <div className="form-container flex-column flex-md-row d-flex align-content-center justify-content-center">
                 <input type="text" class="form-control" placeholder='Email Address Here'/>
                 <div className='ps-3'>
                     <button type='button' className='main-btn'>subscribe</button>

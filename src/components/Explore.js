@@ -18,7 +18,7 @@ export default function Explore() {
               </p>
           </div>
           <div className="row">
-              <div className="col-4">
+              <div className="col-md-4 md-4 mt-4 mt-md-0">
                   <div className="card border-0">
                     <img src={card1} className="card-img-top card-Img" alt="..."/>
                     <div className="card-body px-0">
@@ -36,7 +36,7 @@ export default function Explore() {
                     </div>
                     </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 mt-4 mt-md-0">
                   <div className="card border-0" >
                     <img src={card2} className="card-img-top card-Img" alt="..."/>
                     <div className="card-body px-0">
@@ -54,7 +54,7 @@ export default function Explore() {
                     </div>
                     </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 md-4 mt-4 mt-md-0">
                   <div className="card border-0" >
                     <img src={card3} className="card-img-top card-Img" alt="..."/>
                     <div className="card-body px-0">

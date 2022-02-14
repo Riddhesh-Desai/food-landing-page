@@ -5,7 +5,7 @@ export default function Home() {
       <div className="container-fluid ps-0 top-banner">
         <div className="container">
             <div className="row">
-                <div className="col-md-6 col-lg-5">
+                <div className="col-12 col-10 col-lg-5">
                     <h1 className="banner-title">
                         Good food choices are
                         good investment
@@ -14,9 +14,9 @@ export default function Home() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex debitis 
                         voluptates at, officiis.
                     </p>
-                    <div className="btn-banner-section mt-5">
+                    <div className="btn-banner-section mt-5 ">
                         <button type='button' className='main-btn'>Order Now <span className='ms-2'><i className="fas fa-shopping-basket"></i></span></button>
-                        <button type='button' className='white-btn ms-4'>Order Now <span className='ms-2'><i className="fas fa-chevron-right"></i></span></button>
+                        <button type='button' className='white-btn ms-3 ms-sm-4'>Order Now <span className='ms-2'><i className="fas fa-chevron-right"></i></span></button>
                     </div>
 
                 </div>
