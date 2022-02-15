@@ -2,6 +2,13 @@ import React from 'react';
 import logo from '../images/logo.png';
 
 export default function Navbar() {
+  const handleCollapse = () => {
+    console.log("handleCollapse");
+    var nav = document.getElementById("navbarNav");
+    var btn = document.getElementById("navbarBtn");
+    nav.classList.remove("show");
+    btn.classList.add("collapsed");
+    };
   return (
     <nav className="navbar navbar-expand-lg navbar-wrapper">
     <div className="container">
@@ -14,22 +21,22 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#Home">Home</a>
+            <a className="nav-link active" aria-current="page" href="#Home" onClick={handleCollapse}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#About">About Us</a>
+            <a className="nav-link" href="#About" onClick={handleCollapse}>About Us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Explore">Explore foods</a>
+            <a className="nav-link" href="#Explore" onClick={handleCollapse}>Explore foods</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link " href="#Reviews">Reviews</a>
+            <a className="nav-link " href="#Reviews" onClick={handleCollapse}>Reviews</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link " href="#FAQ">FAQ</a>
+            <a className="nav-link " href="#FAQ" onClick={handleCollapse}>FAQ</a>
           </li>
           <li>
-            <button className="main-btn mx-2 call-btn">1200 352 224</button>
+            <button className="main-btn mx-2 call-btn" onClick={handleCollapse}>1200 352 224</button>
           </li>
         </ul>
       </div>
